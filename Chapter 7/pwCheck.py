@@ -32,7 +32,7 @@ def main():
     Please enter a password that has the following:
         * At least 1 uppercase and 1 lowercase letter
         * At lease 1 digit
-        * At least 1 character eg: !£$%^&*?@
+        * At least 1 character eg: !Â£$%^&*?@
     '''
     pwFlag = 0    
     while pwFlag == 0:
