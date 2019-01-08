@@ -12,7 +12,7 @@ def printTable(data):
                         if colWidth[n] == 0:
                                 colWidth[n] = len(max(data[n], key=len))
                         print (data[n][i].rjust(colWidth[n]) + ' |'),
-                print
+                print()
         
 printTable(tableData)
 
